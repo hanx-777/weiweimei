@@ -1,0 +1,26 @@
+{
+  "method": "2x-intermediate-resampling-plus-light-unsharp-mask",
+  "supersampleFactor": 2,
+  "resampling": "Lanczos",
+  "unsharpMask": {
+    "radius": 0.55,
+    "percent": 90,
+    "threshold": 3
+  },
+  "preserved": [
+    "source-first animation frames",
+    "shared union-bbox registration",
+    "192x208 cells",
+    "frame order",
+    "running-left framewise mirror",
+    "RGBA alpha channel"
+  ],
+  "validation": {
+    "spriteVersionNumber": 2,
+    "atlas": "8x11",
+    "width": 1536,
+    "height": 2288,
+    "mode": "RGBA",
+    "ok": true
+  }
+}

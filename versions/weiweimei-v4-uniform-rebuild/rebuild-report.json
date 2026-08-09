@@ -1,0 +1,21 @@
+{
+  "method": "source-gif-rebuild-with-shared-scale-and-baseline",
+  "referenceState": "idle",
+  "sharedTargetHeight": 194,
+  "sharedBaselineY": 202,
+  "resampling": "alpha-aware-Lanczos",
+  "sharpen": {
+    "radius": 0.45,
+    "percent": 105,
+    "threshold": 3
+  },
+  "atlas": {
+    "columns": 8,
+    "rows": 11,
+    "width": 1536,
+    "height": 2288,
+    "mode": "RGBA",
+    "spriteVersionNumber": 2
+  },
+  "validation": "validation.json"
+}

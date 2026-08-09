@@ -1,0 +1,209 @@
+{
+  "source_rows": [
+    {
+      "state": "idle",
+      "source": "relax.gif",
+      "source_frame_count": 23,
+      "selected_indices": [
+        0,
+        4,
+        9,
+        13,
+        18,
+        22
+      ],
+      "frame_count": 6
+    },
+    {
+      "state": "running-right",
+      "source": "move.gif",
+      "source_frame_count": 19,
+      "selected_indices": [
+        0,
+        3,
+        5,
+        8,
+        10,
+        13,
+        15,
+        18
+      ],
+      "frame_count": 8
+    },
+    {
+      "state": "waving",
+      "source": "interact.gif",
+      "source_frame_count": 46,
+      "selected_indices": [
+        0,
+        15,
+        30,
+        45
+      ],
+      "frame_count": 4
+    },
+    {
+      "state": "jumping",
+      "source": "jump.gif",
+      "source_frame_count": 42,
+      "selected_indices": [
+        0,
+        10,
+        20,
+        31,
+        41
+      ],
+      "frame_count": 5
+    },
+    {
+      "state": "failed",
+      "source": "die.gif",
+      "source_frame_count": 20,
+      "selected_indices": [
+        0,
+        3,
+        5,
+        8,
+        11,
+        14,
+        16,
+        19
+      ],
+      "frame_count": 8
+    },
+    {
+      "state": "waiting",
+      "source": "sit.gif",
+      "source_frame_count": 23,
+      "selected_indices": [
+        0,
+        4,
+        9,
+        13,
+        18,
+        22
+      ],
+      "frame_count": 6
+    },
+    {
+      "state": "running",
+      "source": "special.gif",
+      "source_frame_count": 42,
+      "selected_indices": [
+        0,
+        8,
+        16,
+        25,
+        33,
+        41
+      ],
+      "frame_count": 6
+    },
+    {
+      "state": "review",
+      "source": "special1.gif",
+      "source_frame_count": 40,
+      "selected_indices": [
+        0,
+        8,
+        16,
+        23,
+        31,
+        39
+      ],
+      "frame_count": 6
+    }
+  ],
+  "registration": {
+    "reference_state": "idle",
+    "reference_bbox": {
+      "width": 247,
+      "height": 285
+    },
+    "shared_scale": 0.6947368421052632,
+    "shared_target_height": 194,
+    "reference_target_height": 198,
+    "fit_width": 186,
+    "shared_baseline_y": 202,
+    "resampling": "alpha-aware-Lanczos",
+    "sharpen": {
+      "radius": 0.45,
+      "percent": 105,
+      "threshold": 3
+    },
+    "rows": [
+      {
+        "state": "idle",
+        "frames": 6,
+        "visible_width_min": 165,
+        "visible_width_max": 175,
+        "visible_height_min": 194,
+        "visible_height_max": 194,
+        "baseline_y": 202
+      },
+      {
+        "state": "running-right",
+        "frames": 8,
+        "visible_width_min": 169,
+        "visible_width_max": 185,
+        "visible_height_min": 194,
+        "visible_height_max": 194,
+        "baseline_y": 202
+      },
+      {
+        "state": "waving",
+        "frames": 4,
+        "visible_width_min": 165,
+        "visible_width_max": 173,
+        "visible_height_min": 194,
+        "visible_height_max": 194,
+        "baseline_y": 202
+      },
+      {
+        "state": "jumping",
+        "frames": 5,
+        "visible_width_min": 166,
+        "visible_width_max": 171,
+        "visible_height_min": 194,
+        "visible_height_max": 194,
+        "baseline_y": 202
+      },
+      {
+        "state": "failed",
+        "frames": 8,
+        "visible_width_min": 165,
+        "visible_width_max": 183,
+        "visible_height_min": 194,
+        "visible_height_max": 194,
+        "baseline_y": 202
+      },
+      {
+        "state": "waiting",
+        "frames": 6,
+        "visible_width_min": 161,
+        "visible_width_max": 170,
+        "visible_height_min": 194,
+        "visible_height_max": 194,
+        "baseline_y": 202
+      },
+      {
+        "state": "running",
+        "frames": 6,
+        "visible_width_min": 166,
+        "visible_width_max": 175,
+        "visible_height_min": 194,
+        "visible_height_max": 194,
+        "baseline_y": 202
+      },
+      {
+        "state": "review",
+        "frames": 6,
+        "visible_width_min": 165,
+        "visible_width_max": 176,
+        "visible_height_min": 194,
+        "visible_height_max": 194,
+        "baseline_y": 202
+      }
+    ]
+  }
+}
