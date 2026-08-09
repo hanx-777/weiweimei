@@ -1,0 +1,27 @@
+name: One-time branch cleanup
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delete merged working branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method DELETE repos/${{ github.repository }}/git/refs/heads/agent/weiweimei-pet-assets
+      - name: Remove this one-time workflow
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          SHA=$(gh api repos/${{ github.repository }}/contents/.github/workflows/cleanup-agent-branch.yml --jq .sha)
+          gh api --method DELETE repos/${{ github.repository }}/contents/.github/workflows/cleanup-agent-branch.yml \
+            -f message='Remove one-time branch cleanup workflow' \
+            -f sha="$SHA" \
+            -f branch=main
